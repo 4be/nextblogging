@@ -13,6 +13,7 @@ interface accountLinkProps {
 export const getServerSideProps: GetServerSideProps<
   accountLinkProps
 > = async () => {
+  await new Promise((r) => setTimeout(r, 3000));
   const resAccountResponse = await fetch(
     "https://newsapi.org/v2/everything?q=Apple&from=2023-05-19&sortBy=popularity&apiKey=" +
       process.env.NEWSAPIKEY

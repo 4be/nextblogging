@@ -1,13 +1,13 @@
-export interface newsAPIresponse {
+export interface NewsArticle {
   author: string;
-  tittle: string;
+  title: string;
   description: string;
   url: string;
-  urlImage?: string;
+  urlToImage?: string;
   publishDate: string;
   content: string;
 }
 
-export interface newsCall {
-  articles: newsAPIresponse[];
+export interface NewsResponse {
+  articles: NewsArticle[];
 }

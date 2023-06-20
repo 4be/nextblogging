@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import placeholderImage from "@/assets/images/newsarticle_placeholder.jpg";
 import styles from "@/styles/App.module.css";
 import Button from "react-bootstrap/Button";
-import { NewsArticle } from "@/models/NewsAPI";
+import { NewsArticle } from "@/models/newsAPI";
 
 interface NewsArticleEntryProps {
   article: NewsArticle;

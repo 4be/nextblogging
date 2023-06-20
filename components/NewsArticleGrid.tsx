@@ -1,4 +1,4 @@
-import { NewsArticle } from "@/models/NewsAPI";
+import { NewsArticle } from "@/models/newsAPI";
 import { Col, Row } from "react-bootstrap";
 import NewsArticleEntry from "./NewsArticleEntry";
 
